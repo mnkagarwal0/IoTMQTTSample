@@ -6,9 +6,9 @@
 #include "mosquitto.h"
 
 // CONNECTION information to complete
-#define IOTHUBNAME "<your IoT Hub name>"
-#define DEVICEID "<your device Id>"
-#define PWD "SharedAccessSignature sr=[yourIoTHub].azure-devices.net%2Fdevices%2F[nameofyourdevice]&sig=[tokengeneratedforyourdevice]"
+#define IOTHUBNAME "test-rtu"
+#define DEVICEID "mqttdev"
+#define PWD "SharedAccessSignature sr=test-rtu.azure-devices.net%2Fdevices%2Fmqttdev&sig=6BzfrebeVAqU6ztDR6WROjPpIiIl3y2J732qJIFMcwI%3D&se=1598872005"
 
 
 #define CERTIFICATEFILE "IoTHubRootCA_Baltimore.pem"
